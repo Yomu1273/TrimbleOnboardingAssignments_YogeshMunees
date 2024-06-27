@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML page with Form</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        #submit{
+            background-color: black;
+            color: white;
+            border: 2px solid aquamarine; 
+            border-radius: 1em;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: 2px solid aquamarine; border-radius: 1em; ">
+    <h1 id="heading">Creating a Basic HTML Document</h1>
+    </div>
+    <br>
+    <form action="https://www.google.com/search" name="formdhoni" id="formdhoni" style="text-align: center;" onsubmit="return resultSearch()">
+        <input type="hidden" name="q" id="q">
+        <label for="a">Give the value for A:</label><br>
+        <input type="range" min="0" max="100" name="a" id="a" onchange="ch()"><br>
+        <p id="inp"></p>        
+        <label for="b">Give the value for B:</label><br>
+        <input type="number" name="b" id="b"><br><br>
+        <button  name="submit" id="submit">Submit</button>       
+    </form>
+    <script>
+        function resultSearch(){
+            let a = document.getElementById("a").value;
+            let b = document.getElementById("b").value;
+            a = parseInt(a);
+            b = parseInt(b);
+            console.log(a);
+            let c = 0;
+            c = a+b;
+            document.getElementById("q").value = c;
+        }
+        function ch(){
+            document.getElementById("inp").innerHTML = a.value;
+        };
+    </script>
+</body>
+</html>

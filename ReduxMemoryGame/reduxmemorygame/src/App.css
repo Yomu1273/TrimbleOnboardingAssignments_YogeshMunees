@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.doors {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+}
+
+.door {
+  border: 2px solid black;
+  padding: 5%;
+}
+
+.door:hover {
+  background-color: grey;
+}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Memory Test using Redux
+    </h1>
+    <div>
+      <div
+        data-testid="doorDivision"
+        style="visibility: hidden;"
+      >
+        <div>
+          <h3>
+            Door Step 1
+          </h3>
+        </div>
+        <div
+          class="doors"
+        >
+          <div
+            class="door"
+            data-testid="leftDoor"
+          >
+            |
+          </div>
+          <div
+            style="visibility: hidden;"
+          >
+            gapbetweenthedoors
+          </div>
+          <div
+            class="door"
+            data-testid="rightDoor"
+          >
+            |
+          </div>
+        </div>
+      </div>
+      <div>
+        <button
+          data-testid="generateQuestionBtn"
+        >
+          Generate Question
+        </button>
+        <h3
+          data-testid="questionSentence"
+          style="visibility: hidden;"
+        >
+          Your sequence is: 
+        </h3>
+        <h3
+          data-testid="memorizeInstruction"
+          style="visibility: hidden;"
+        >
+          Memorize the Sequence
+        </h3>
+        <button
+          data-testid="goBtn"
+          style="visibility: hidden;"
+        >
+          GO
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
