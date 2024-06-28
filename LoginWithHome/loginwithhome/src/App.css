@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.Heading {
+  background-color:rgb(211, 211, 211);
+  margin:0;
+  top:0;
+  left:0;
+  color:rgb(8, 67, 155);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#TrimbleLogo {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.box {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.modeButtons {
+  padding-top: 2%;
+}
+
+.login{
+  background-color: rgb(8, 67, 155);
+  color: white;
+  border: none;
+  padding: 1%;
+  padding-bottom: 2%;
+  width: 25%;
+  border-radius: 5px 5px 0 0;
+}
+
+.signup {
+  background-color: rgb(8, 67, 155);
+  color: white;
+  border: none;
+  padding: 1%;
+  width: 25%;
+  border-radius: 5px 5px 0 0;
+}
+
+.modeFields {
+  padding: 2%;
+  background-color: rgb(8, 67, 155);
+  color: white;
+  display: flex;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.listitem {
+  padding: 2%;
+}
+
+.logout {
+  background-color: white;
+  border: 0px solid black;
+  color: red;
+}
